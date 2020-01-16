@@ -12,3 +12,4 @@ jobs:
         source_repo: "https://github.com/karolkrawczyk/karol_test_repo.git"
         source_branch: "*"
         destination_branch: "*"
+        github_token: ${{ secrets.GITHUB_TOKEN }}
